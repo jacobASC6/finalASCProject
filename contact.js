@@ -10,6 +10,7 @@ button.addEventListener("click",update);
         // event.preventDefault();
         if(username.value == "" || email.value == "" || phone.value =="" || message.value ==""){
                alert("Please fill all missing requirements");
+               event.preventDefault();
            } else {
                alert("Thank you for submitting your input");
            };
