@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="apply.js" defer></script>
+            <link href="apply.css" rel="stylesheet">
+
+            <title>div experimentation</title>
+    </head>
+      <body>    
+          <h3>New Post</h3>
+          <form>
+              Name:<br>
+              <input type="text" id="Name"><br>
+              Company:<br>
+              <input type="text" id="Company"><br>
+              Opportunity Info:<br>
+              <textarea id = "info" rows="4" cols="50" wrap="hard" ></textarea><br>
+              <br>
+              <button id="submitButton">Submit</button>
+          </form>
+        <!-- FOR THE OTHER PAGE -->
+        
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+
+        <script>
+                 // Your web app's Firebase configuration
+                 var firebaseConfig = {
+                apiKey: "AIzaSyBPcrN-vMSuEeWdGx10YcYqGQBoPIMc_z0",
+                authDomain: "finalprojectasc.firebaseapp.com",
+                databaseURL: "https://finalprojectasc.firebaseio.com",
+                projectId: "finalprojectasc",
+                storageBucket: "",
+                messagingSenderId: "1052818758007",
+                appId: "1:1052818758007:web:263dae60497d1a55"
+                };
+             // Initialize Firebase
+             firebase.initializeApp(firebaseConfig);
+        </script>
+      </body>
+    </html>
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="post-it.js" defer></script>
+    <link  href="post-it.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+    <title> Post-it </title>
+</head>
+<body>
+
+    <div>
+    <ul>
+        <li ><a href= "index.html">Home</a></li>
+        <li><a href= "about.html">About</a></li>
+        <li class="active"><a href= "volunteerplan.html">Volunteer</a></li>
+        <li><a href= "contact.html">Contact</a></li>
+        <li><a href= "login.html">Log In</a></li>
+    </ul>
+</div>
+    <div id = "form">
+    <h3>New Post</h3>
+            <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Name<br>
+                <input class = "inputz" type="text" id="Name"><br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Company<br>
+                <input class = "inputz" type="text" id="Company"><br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Opportunity Info<br>
+                <textarea id = "info" rows="4" cols="50" wrap="hard" ></textarea><br>
+                <br>
+                <button class = "inputz" id="submitButton">Submit</button>
+            </form>
+    </div>
+            <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+            <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+        
+            <script>
+                     // Your web app's Firebase configuration
+                     var firebaseConfig = {
+                    apiKey: "AIzaSyBPcrN-vMSuEeWdGx10YcYqGQBoPIMc_z0",
+                    authDomain: "finalprojectasc.firebaseapp.com",
+                    databaseURL: "https://finalprojectasc.firebaseio.com",
+                    projectId: "finalprojectasc",
+                    storageBucket: "",
+                    messagingSenderId: "1052818758007",
+                    appId: "1:1052818758007:web:263dae60497d1a55"
+                    };
+                 // Initialize Firebase
+                 firebase.initializeApp(firebaseConfig);
+            </script>
+                
+</body>
+</html>

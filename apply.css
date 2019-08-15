@@ -1,0 +1,39 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    background: url("https://www.newrafael.com/wp-content/uploads/2011/05/rafael_rozendaal_closing_shapes.gif") no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+  #info{
+      height:200px;
+      width: 300px;
+      }
+
+
+
+#header{
+  width: auto;
+  text-align: center;
+}
+
+#form{
+  margin-top:50px;
+}
+#form > form{
+  
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form > h3 {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="contain.js" defer></script>
+            <link href="contain.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+            <title>div experimentation</title>
+    </head>
+      <body>
+
+          <div>
+              <ul>
+                  <li ><a href= "index.html">Home</a></li>
+                  <li><a href= "about.html">About</a></li>
+                  <li class="active"><a href= "volunteerplan.html">Volunteer</a></li>
+                  <li><a href= "contact.html">Contact</a></li>
+         
+              </ul>
+          </div>
+          
+        <div id ="header">
+        <h1>Volunteer Connect</h1>
+        <h2>Click on a post to let them know you're interested!</h2>
+        </div>  
+        <!-- FOR THE UPDATE PAGE -->
+        
+        <!-- FOR THE OTHER PAGE -->
+        <div class="allMessages">
+        </div>
+       
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+
+        <script>
+                 // Your web app's Firebase configuration
+                 var firebaseConfig = {
+                apiKey: "AIzaSyBPcrN-vMSuEeWdGx10YcYqGQBoPIMc_z0",
+                authDomain: "finalprojectasc.firebaseapp.com",
+                databaseURL: "https://finalprojectasc.firebaseio.com",
+                projectId: "finalprojectasc",
+                storageBucket: "",
+                messagingSenderId: "1052818758007",
+                appId: "1:1052818758007:web:263dae60497d1a55"
+                };
+             // Initialize Firebase
+             firebase.initializeApp(firebaseConfig);
+        </script>
+      </body>
+    </html>
+
+

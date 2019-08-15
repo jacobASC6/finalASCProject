@@ -1,0 +1,190 @@
+@media(max-width: 540){
+  .card-container{
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      justify-content: space-evenly;
+  }
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent; 
+    transition: 0.6s ease;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li a:hover{
+background-color: #ffffff;
+color: #000;
+}
+ul li.active a{
+    background-color: #ffffff;
+    color: #000; 
+}
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-left: -20px;
+    margin-top: 10px;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%-50%);
+}
+.title h1{
+    color: #ffffff;
+    font-size: 70px;
+    transition: 0.6s ease;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%-50%);   
+
+}
+.btn{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #ffffff; 
+    top: 70%;
+    left: 30%;
+    transition: 0.6s ease;
+}
+.btn:hover{
+background-color: #ffffff;
+color: #000;
+}
+ 
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+  }
+  h2{
+    position: absolute;
+    top: 80%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 320px; 
+    height: 60px;
+  }
+  h2:before{
+    content:"\f1e0";
+  font-family: fontAwesome; 
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(45deg, #ff4b1f,#ff9068);
+   border-radius: 30px;
+   text-align: center;
+   line-height: 60px;
+   color: #ffffff;
+   font-size: 30px;
+   margin: 0 2px;
+   transition: 0.5s;
+   z-index: 1;
+  }
+  h2:hover:before{
+  width: 60px;
+  }
+  h2 li:hover a{
+      transition: .5s;
+      color:black;
+  }
+  h2 li{ 
+    position: absolute;
+    list-style: none;
+    transition: 1s;
+  }
+  h2 li a{
+   display: block;
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+   background: #262626;
+   color: #ffffff;
+   margin: 0 2px;
+   border-radius: 50%;
+   font-size: 30px;
+   transition: 1s; 
+  }
+  h2 li:nth-child(1) a{
+  background: #3b5999;
+  }
+  h2 li:nth-child(2) a{
+    background: #55acee;
+  }
+  h2 li:nth-child(3) a{
+    background: #dd4b39;
+  }
+  h2 li:nth-child(4) a{
+    background: #0077B5;
+  }
+  h2 li:nth-child(5) a{
+    background: #e4405f;
+  }
+  h2:hover li:nth-child(1) a{
+    transform: translateX(64px) rotate(360deg);
+    transition: 0.8s;
+  }
+  h2:hover li:nth-child(2) a{
+    transform: translateX(128px) rotate(360deg);
+    transition: 0.8s;
+  }
+  h2:hover li:nth-child(3) a{
+    transform: translateX(192px) rotate(360deg);
+    transition: 0.8s;
+  }
+  h2:hover li:nth-child(4) a{
+    transform: translateX(256px) rotate(360deg);
+    transition: 0.8s;
+  }
+  h2:hover li:nth-child(5) a{
+    transform: translateX(320px) rotate(360deg);
+    transition: 0.8s;
+  }
+ 
