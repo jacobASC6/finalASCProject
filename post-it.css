@@ -4,6 +4,7 @@ body {
     background-size: cover;
     padding: 40px 0;
     color:white;
+    text-align: center;
   }
 
   ul{
@@ -69,14 +70,14 @@ ul li.active a{
     flex-direction: column;
     justify-content: center;
     width: 225px;
-    margin-left: 560px;
+    margin-left: 575px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 40px;
 
 }
 
 .inputz{
-  margin-left: 65px;
+  margin-left: 100px;
 }
 
 .info{
@@ -88,5 +89,6 @@ ul li.active a{
       align-items: center;
       display: flex;
       justify-content: space-evenly;
+      flex-direction: horizontal;
   }
 }

@@ -29,8 +29,10 @@
  }
  .ps{
   margin-bottom: 40px; 
-  margin-right: 11%;
+  margin-right: 5%;
+  text-align: center;
  }
+
  .ps a{
  display: inline-block;
  margin: 0 30px;
@@ -172,4 +174,10 @@ color: #000;
       display: flex;
       justify-content: space-evenly;
   }
+}
+
+.Tony{
+  image-orientation: 90deg;
+image-orientation: 90deg flip; 
+image-orientation: flip; 
 }
